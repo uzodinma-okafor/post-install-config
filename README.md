@@ -102,9 +102,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- In this step, you're going to configure accounts for 2 new agents (i.e. workers).
+- In this step, you're going to configure accounts for 2 new users (i.e. customers).
 
-- Click "Admin Panel" on top right corner of page>> Go to "Agents" >> Click "Add New"
+- Click "Agent Panel" on top right corner of page>> Go to "Users" >> Click "Add New"
+- Make a new account for "Karen Karen" with email "karen@osticket.com" and password "Password1".
+- Get back to the "Agents" page you were previously on and repeat the process again to make an account for "Ken Ken" with email "ken@osticket.com" and same password.
 </p>
 <br /><hr>
 
@@ -113,8 +115,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+- In this step, you're going to configure new SLAs for responding to tickets.
+
+- Click "Admin Panel" on top right corner of page>> Go to "Manage" >> Click "SLA">> Click "Add New"
+- Make a new SLA called "SEV-A" with timely response in 1 hour and 24/7 adherence.
+- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-B" with timely response in 4 hours and 24/7 adherence.
+- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-C" with timely response in 8 hours and adherence only during business hours.
 <br /><hr>
 
 <p>
@@ -122,7 +128,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- In this step, you're going to configure new Help Topics for responding to tickets.
+
+- Click "Admin Panel" on top right corner of page>> Go to "Manage" >> Click "Help Topics">> Click "Add New"
+- Make a new Help Topic called "Business Critical Outage" >> Click "Create"
+- Get back to the "Help Topics" page you were previously on and repeat the process again to make new Help Topics for these categories : Personal Computer Issues, Equipment Request, Password Reset
+
 </p>
 <br /><hr>
 
