@@ -34,7 +34,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <p>
 - Start this part of the overall osTicket tutorial by logging into your help desk login page via this link: http://localhost/osTicket/scp/login.php (Make sure you get through last part of this tutorial, <a href="https://github.com/uzodinma-okafor/osticket-prereqs">osTicket: Prerequisites and Installation</a>, in order to follow along.)
-- 
+
+- You should be in the Admin Panel after logging in. If not, click "Admin Panel" on top right corner of page
+- Click on "Agents"tab, then click on Roles
+- Click on "+ New Role" above the roles already set up in top right area
+- Make a new role and label it "Supreme Admin". Give it all permissions and access to everything.
 </p>
 <br /><hr>
 
