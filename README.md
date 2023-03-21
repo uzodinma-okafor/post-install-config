@@ -94,6 +94,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - In this step, you're going to configure accounts for 2 new agents (i.e. workers).
 
 - Click "Admin Panel" on top right corner of page>> Go to "Agents" >> Click "Add New"
+- NOTE: Agents are given access to the help desk with the intent to respond and resolve the tickets. When an Agent is added to the help desk, they should be assigned to a Primary Department and given a Primary Role any Tickets or Tasks sent to that department. 
 - Make a new account for "Jane Doe" with username "jane.doe" and password "Password1". Make sure leave "passwrod rest email" and "require password change at next login" options UNCHECKED with setting up the password. Add Jane to the "System Administrators" dept as a "Supreme Admin" in the "Access" Tab. Also, add her to the Level II Support team in the "Teams" Tab. Then, click "Create" at the bottom.
 - Get back to the "Agents" page you were previously on and repeat the process again to make an account for "John Doe" with username "john.doe" and same password. Add John to the "Support" dept in a "View Only" role in the "Access" Tab.
 </p>
@@ -101,28 +102,29 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <h2>Step 6: Configuration of Users (i.e. clients/customers)</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BhwNddr.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/GPbyUwR.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - In this step, you're going to configure accounts for 2 new users (i.e. customers).
 
-- Click "Agent Panel" on top right corner of page>> Go to "Users" >> Click "Add New"
-- Make a new account for "Karen Karen" with email "karen@osticket.com" and password "Password1".
+- Click "Agent Panel" on top right corner of page>> Go to "Users" >> Click "User Directory" >> Click "Add New". NOTE: When you see "Admin Panel" in top right of page, you're in "Agent Panel" and vice versa.
+- Make a new account for "Karen Karen" with email "karen@osticket.com" and password "Password1". Then click "Add user".
 - Get back to the "Agents" page you were previously on and repeat the process again to make an account for "Ken Ken" with email "ken@osticket.com" and same password.
 </p>
 <br /><hr>
 
 <p>
 <h2>Step 7: Configuration of Service Level Argreements (SLAs)</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oLwZoFC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/sdyBVrj.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 - In this step, you're going to configure new SLAs for responding to tickets.
 
 - Click "Admin Panel" on top right corner of page>> Go to "Manage" >> Click "SLA">> Click "Add New"
-- Make a new SLA called "SEV-A" with timely response in 1 hour and 24/7 adherence.
-- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-B" with timely response in 4 hours and 24/7 adherence.
-- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-C" with timely response in 8 hours and adherence only during business hours.
+- Make a new SLA called "SEV-A" with grace period to respond in 1 hour and 24/7 working schedule. Then, Click "Add Plan" at the bottom.
+- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-B" with grace period to respond in 4 hours and 24/7 working schedule.
+- Get back to the "SLA" page you were previously on and repeat the process again to make a new SLA called "SEV-C" with grace period to respond in 8 hours and working schedule only during business hours.
 <br /><hr>
 
 <p>
