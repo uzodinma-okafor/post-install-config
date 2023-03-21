@@ -37,7 +37,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - You should be in the Admin Panel after logging in. If not, click "Admin Panel" on top right corner of page. NOTE: "Agent Panel" will show in top right menu whenever you're in the "Admin Panel" and vice versa. This is how you move between both panels.
 - Click on "Agents" tab in upper menu, then click on Roles in the lower menu.
-- Click on "Add New Role" just above "Last Updated" section of the list of existing roles. NOTE: This feature is used to create as many Roles needed for the organization. The Roles are set up according to what access levels each group of members needs depending upon their departments and abilities to assign or close tickets etc.
+- Click on "Add New Role" just above "Last Updated" column of the list of existing roles. NOTE: This feature is used to create as many Roles needed for the organization. The Roles are set up according to what access levels each group of members needs depending upon their departments and abilities to assign or close tickets etc.
 - Make a new role and label it "Supreme Admin" in Definition Tab. Then, go to Permissions Tab to give it all permissions in the subtabs, Tickets, Tasks, & Knowledgebase. 
 - Click "Save Changes" to add the role to list of existing roles.
 </p>
@@ -52,7 +52,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Click "Admin Panel" on top right corner of page
 - Click on "Agents"tab, then click on "Departments"
-- Click on "+ New Department" above the departments already set up in top right area. From here (2nd pic), choose the appropriate settings that will apply to the access levels for this department. The "Departments" have many different settings which apply to tickets as they are routed through the departments, and determine the visibility as well as whether tickets can be routed to each department.
+- Click on "Add New Department" just above "Created" column of the list of existing departments. From here (2nd pic), choose the appropriate settings that will apply to the access levels for this department. The "Departments" have many different settings which apply to tickets as they are routed through the departments, and determine the visibility as well as whether tickets can be routed to each department.
 
 - Make a new department and label it "System Administrators".
 - Click "Create Dept" when you're finished configuring the settings according to your preference.
@@ -61,41 +61,40 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <h2>Step 3: Configuration of Teams</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/i84VlAw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/4lCzRYE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - In this step, you're going to make new teams.
 
 - Click "Admin Panel" on top right corner of page
 - Click on "Agents"tab, then click on "Teams"
-- Click on "+ New Team" above the teams already set up in top right area
-- Make a new team and label it "Level I Support". Give it all permissions and access to everything.
-- Get back to the "Teams" page, click on "+ New Team" again, and make a new team labelling it "Level II Support".
+- Click on "Add New Team" above the teams already set up in top right area
+- Make a new team and label it "Level II Support". On this page (2nd pic), choose the appropriate members for the team and set the access levels that will apply. Configuring Teams will allow Agents from different Departments to be organized to solve a specific issue or help a specific user via a Help Topic or Ticket Filter, regardless of the Agents' Department rules.
+- Click "Create Team" to save the new team to existing list of teams.
 </p>
 <br /><hr>
 
 <p>
 <h2>Step 4: Adjusting Settings To Allow Ticket Creation By Anyone</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FqN4pjB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - In this step, you're going to adjust settings to allow anyone to make tickets.
 
 - Click "Admin Panel" on top right corner of page>> Go to Settings >> Click User Settings
-- Registration Required: Require registration and login to create tickets 
+- In the checkbox section that reads "Registration Required: Require registration and login to create tickets", leave the box unchecked. THis will allow for anyone to anonymously create tickets.
 
 </p>
 <br /><hr>
 
 <p>
 <h2>Step 5: Configuration of Agents (i.e. employees)</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://i.imgur.com/4rX7djp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/6b5L1aI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/></p>
 <p>
 - In this step, you're going to configure accounts for 2 new agents (i.e. workers).
 
 - Click "Admin Panel" on top right corner of page>> Go to "Agents" >> Click "Add New"
-- Make a new account for "Jane Doe" with username "jane_admin" and password "Password1".
+- Make a new account for "Jane Doe" with username "jane_admin" and password "Password1". Make sure leave "passwrod rest email" and "require password change at next login" options UNCHECKED with setting up the password. Add Jane to the "System Administrators" dept as a "Supreme Admin" in the "Access" Tab. Also, add her to the Level II Support team in the "Teams" Tab. Then, click "Create" at the bottom.
 - Get back to the "Agents" page you were previously on and repeat the process again to make an account for "John Doe" with username "john_admin" and same password.
 </p>
 <br /><hr>
