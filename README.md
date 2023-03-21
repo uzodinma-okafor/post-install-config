@@ -89,13 +89,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <h2>Step 5: Configuration of Agents (i.e. employees)</h2>
-<img src="https://i.imgur.com/4rX7djp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/6b5L1aI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/fXEahj4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/6b5L1aI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/></p>
 <p>
 - In this step, you're going to configure accounts for 2 new agents (i.e. workers).
 
 - Click "Admin Panel" on top right corner of page>> Go to "Agents" >> Click "Add New"
-- Make a new account for "Jane Doe" with username "jane_admin" and password "Password1". Make sure leave "passwrod rest email" and "require password change at next login" options UNCHECKED with setting up the password. Add Jane to the "System Administrators" dept as a "Supreme Admin" in the "Access" Tab. Also, add her to the Level II Support team in the "Teams" Tab. Then, click "Create" at the bottom.
-- Get back to the "Agents" page you were previously on and repeat the process again to make an account for "John Doe" with username "john_admin" and same password.
+- Make a new account for "Jane Doe" with username "jane.doe" and password "Password1". Make sure leave "passwrod rest email" and "require password change at next login" options UNCHECKED with setting up the password. Add Jane to the "System Administrators" dept as a "Supreme Admin" in the "Access" Tab. Also, add her to the Level II Support team in the "Teams" Tab. Then, click "Create" at the bottom.
+- Get back to the "Agents" page you were previously on and repeat the process again to make an account for "John Doe" with username "john.doe" and same password. Add John to the "Support" dept in a "View Only" role in the "Access" Tab.
 </p>
 <br /><hr>
 
