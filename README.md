@@ -30,29 +30,32 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <h2>Step 1: Configuration of Roles</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fKfLfv7.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/YPR3Y6K.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Start this part of the overall osTicket tutorial by logging into your help desk login page via this link: http://localhost/osTicket/scp/login.php (Make sure you get through last part of this tutorial, <a href="https://github.com/uzodinma-okafor/osticket-prereqs">osTicket: Prerequisites and Installation</a>, in order to follow along.)
 
-- You should be in the Admin Panel after logging in. If not, click "Admin Panel" on top right corner of page
-- Click on "Agents"tab, then click on Roles
-- Click on "+ New Role" above the roles already set up in top right area
-- Make a new role and label it "Supreme Admin". Give it all permissions and access to everything.
+- You should be in the Admin Panel after logging in. If not, click "Admin Panel" on top right corner of page. NOTE: "Agent Panel" will show in top right menu whenever you're in the "Admin Panel" and vice versa. This is how you move between both panels.
+- Click on "Agents" tab in upper menu, then click on Roles in the lower menu.
+- Click on "Add New Role" just above "Last Updated" section of the list of existing roles. NOTE: This feature is used to create as many Roles needed for the organization. The Roles are set up according to what access levels each group of members needs depending upon their departments and abilities to assign or close tickets etc.
+- Make a new role and label it "Supreme Admin" in Definition Tab. Then, go to Permissions Tab to give it all permissions in the subtabs, Tickets, Tasks, & Knowledgebase. 
+- Click "Save Changes" to add the role to list of existing roles.
 </p>
 <br /><hr>
 
 <p>
 <h2>Step 2: Configuration of Departments</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iSikp3Z.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/6peR3NL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - In this step, you're going to make a new department.
 
 - Click "Admin Panel" on top right corner of page
 - Click on "Agents"tab, then click on "Departments"
-- Click on "+ New Department" above the departments already set up in top right area
-- Make a new department and label it "System Administrators". Give it all permissions and access to everything.
+- Click on "+ New Department" above the departments already set up in top right area. From here (2nd pic), choose the appropriate settings that will apply to the access levels for this department. The "Departments" have many different settings which apply to tickets as they are routed through the departments, and determine the visibility as well as whether tickets can be routed to each department.
+
+- Make a new department and label it "System Administrators".
+- Click "Create Dept" when you're finished configuring the settings according to your preference.
 </p>
 <br /><hr>
 
