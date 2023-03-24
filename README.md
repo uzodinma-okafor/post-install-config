@@ -145,7 +145,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 <p>
-- Now, you're done with Post-Installation Configuration! Time for the last part of this osTicket tutorial: <a href="https://github.com/uzodinma-okafor/ticket-lifecycle">Ticket Lifecycle: Intake Through Resolution</a>
+- Now, you're done with Post-Installation Configuration! Time for the next osTicket tutorial: <a href="https://github.com/uzodinma-okafor/ticket-lifecycle">Ticket Lifecycle: Intake Through Resolution</a>
 </p>
 <br /><hr>
 
